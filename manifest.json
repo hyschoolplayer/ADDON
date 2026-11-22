@@ -1,0 +1,28 @@
+{
+  "id": "hyschool.anime.manga",
+  "version": "1.0.0",
+  "name": "AniWorld & Manga Addon",
+  "description": "Offizielles Hyschool Addon für AniWorld (GerDub / GerSub), Anime-Streams und Manga Reader.",
+  "logo": "https://kakash9i.github.io/playerhyschool/assets/hyschool_icon.png",
+  "resources": [
+    "stream",
+    "meta",
+    "subtitles"
+  ],
+  "types": [
+    "anime",
+    "manga",
+    "series",
+    "movie"
+  ],
+  "idPrefixes": [
+    "kitsu:",
+    "aniworld:",
+    "manga:",
+    "tt"
+  ],
+  "behaviorHints": {
+    "configurable": false,
+    "configurationRequired": false
+  }
+}
